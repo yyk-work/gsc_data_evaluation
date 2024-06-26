@@ -10,12 +10,6 @@ from googleapiclient.discovery import build
 import pandas as pd
 import searchconsole
 
-# Set the title and favicon that appear in the Browser's tab bar.
-st.set_page_config(
-    page_title='GSC Data',
-    page_icon=':earth_europe:', # This is an emoji shortcode. Could be a URL too.
-)
-
 # -----------------------------------------------------------------------------
 
 # Configuration: Set to True if running locally, False if running on Streamlit Cloud
